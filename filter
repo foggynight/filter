@@ -1,4 +1,7 @@
 #!/bin/sh
+
 # filter - Filter stdin using grep.
+# Copyright (C) 2021 Robert Coffey
+# Released under the GPLv3
 
 grep -Ehv $@
